@@ -1,1 +1,13 @@
+/* h2 + p{
+    color: red;
+} */
 
+/* cuando se usa el signo "+" significa que a seleccionar a un 
+hermano cercano hacia abajo, por ejemplo, los p mas cercanos hacia abajo */
+
+h2 ~ p{
+    color: red;
+} 
+
+/* Cuando se usa el signo "~" significa que va seleccionar
+todos los hermanos en la seccion, por ejemplo, todos los p que estan en una seccion que este un h2 (como etiqueta con ~) */
