@@ -1,0 +1,17 @@
+div p{
+    color: blueviolet;
+}
+
+#eteve > p{
+    color:aqua
+}
+
+
+/* div > p{
+    color: aqua;
+} */
+ 
+/* la combinacion "div p" selecciona todos los elementos hjios en un bloque  */
+
+/* la combinacion "div > p " seleccion solamente los hijos directos de un bloque, por ejemplo solo seleccionaria algo como un div o p o  h1 que no este adentro de otro bloque en el mismo */
+
