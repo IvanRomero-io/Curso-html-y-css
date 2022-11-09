@@ -1,0 +1,15 @@
+/* body{
+    font-size: 5px;
+} SI CAMBIAMOS EL FONT-SIZE DEL BODY LOS EM VAN A USAR ESE NUEVO TAMAÑO DE LAS LETRAS*/
+
+.text-container{
+    font-size: 1.5em;
+}
+
+.text-container div{
+    font-size: 1.5em;
+}
+
+/* .text-container > p{
+    font-size: 2em;
+}  */
