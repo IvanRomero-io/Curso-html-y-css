@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6rem;
+}
+
+.container{
+    border: 0.1rem solid black;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* justify-content: space-around; */
+}
+
+/* align-items: baseline; hace que meta en el div todas la letras que esten sin dejar ninguna afuera, osea el div se estirara hasta cubri todo, o se hara mas pequeño si es poco
+texto
+
+el modificar "sketch" hace que se estire el div hasta el final deñ contenedor
+*/
+
+.box{
+    width: 10rem;
+    height: 10rem;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    /* box-sizing: border-box; */
+    flex-grow: 1;
+}
+
+.box1{
+    background-color: blue;
+    /* order: 2; */
+    /* flex-grow: 1; */
+}
+
+.box2{
+    background-color: red;
+    /* order: 4; */
+    /* flex-grow: 1; */
+}
+
+.box3{
+    background-color: purple;
+    /* order: 6; */
+}
+
+.box4{
+    background-color: yellow;
+    /* order: 1; */
+}
+
+.box5{
+    background-color: green;
+    /* order: 5; */
+}
+
+.box6{
+    background-color: orange;
+    /* order: 3; */
+}
+
+/* .box1:hover, .box2:hover, .box3:hover, .box4:hover, .box5:hover, .box6:hover{
+    flex-grow: 1;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.432);
+} */
+
+.box1, .box2, .box3, .box4, .box5, .box6{
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.432);
+}
