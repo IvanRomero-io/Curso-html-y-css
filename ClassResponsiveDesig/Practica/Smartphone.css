@@ -10,7 +10,7 @@ html{
 }
 
 body{
-    background-color: #256D85;
+    background-color: #2C3333;
 }
 
 nav{
@@ -44,7 +44,7 @@ nav span::first-letter{
 
 .information-section{
     width: 80%;
-    height: 150px;
+    min-height: 150px;
     box-sizing: border-box;
     margin-left: auto;
     margin-right: auto;
@@ -66,8 +66,9 @@ nav span::first-letter{
 }
 
 .games-content{
+    box-sizing: border-box;
     width: 90%;
-    min-height: 320px;
+    min-height: 150px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -78,7 +79,7 @@ nav span::first-letter{
 .game1, .game2, .game3, .game4{
     width: 85%;
     box-sizing: border-box;
-    height: 150px;
+    min-height: 180px;
     margin: auto;
     background-color: #6d9886ad;
     border-radius: 10px;
@@ -86,6 +87,9 @@ nav span::first-letter{
     padding: 8px;
     color: aliceblue;
     box-shadow: 2px 2px 2px black;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
 }
 
 .game1:hover, .game2:hover, .game3:hover, .game4:hover{
@@ -93,10 +97,16 @@ nav span::first-letter{
 }
 
 .games-content p{
-    font-size: 1.3rem;
+    font-size: 1.25rem;
 }
 
 .game-card_content{
-    width: 180px;
+    width: 140px;
     height: 150px;
+}
+
+.video-trailer{
+    width: 160px;
+    height: 140px;
+    border-radius: 10px;
 }
