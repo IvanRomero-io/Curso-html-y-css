@@ -77,9 +77,9 @@ nav span::first-letter{
 }
 
 .game1, .game2, .game3, .game4{
-    width: 85%;
+    width: 90%;
     box-sizing: border-box;
-    min-height: 180px;
+    min-height: 200px;
     margin: auto;
     background-color: #6d9886ad;
     border-radius: 10px;
@@ -106,7 +106,7 @@ nav span::first-letter{
 }
 
 .video-trailer{
-    width: 160px;
-    height: 140px;
+    width: 180px;
+    height: 180px;
     border-radius: 10px;
 }
