@@ -1,3 +1,7 @@
 body{
-    background-color: aqua;
+    background-color: #2C3333;
+}
+
+.information-section{
+    order: 1;
 }
